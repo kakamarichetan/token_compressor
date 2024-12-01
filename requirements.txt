@@ -1,0 +1,7 @@
+streamlit
+spacy
+torch
+llmlingua
+transformers
+tiktoken
+nltk
