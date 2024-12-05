@@ -55,7 +55,7 @@ def main():
     # Streamlit Page Configuration
     st.set_page_config(page_title="SFF - Prompt Compressor", layout="centered")
 
-    st.title("Prompt Compressor")
+    st.title("SFF - Prompt Compressor")
     st.subheader("Enter a Prompt and Compression Ratio")
 
     # Input fields for original prompt and ratio
