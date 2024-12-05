@@ -1,6 +1,6 @@
 streamlit
 spacy
-torch==2.2.0
+torch
 llmlingua
 transformers
 tiktoken
