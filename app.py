@@ -4,6 +4,10 @@ from sff_compressor.compressors import PromptCompressor
 import logging
 import torch
 
+import os
+os.environ["NPY_NO_DEPRECATED_API"] = "NPY_1_7_API_VERSION"
+
+
 # Setup logging for debugging
 logging.basicConfig(
     filename="app.log", 
