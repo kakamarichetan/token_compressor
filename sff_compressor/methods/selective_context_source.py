@@ -5,6 +5,7 @@ import torch
 import re
 from typing import List, Tuple
 import spacy
+from spacy_download import load_spacy
 import numpy as np
 import os
 from dataclasses import dataclass
@@ -64,7 +65,8 @@ class SelectiveContext:
         # for Chinese, use `nlp = spacy.load('zh_core_web_sm')`` directly
         lang = self.lang
         if lang == "en":
-            self.nlp = spacy.load("en_core_web_sm", disable=["ner"])
+            # self.nlp = spacy.load("en_core_web_sm", disable=["ner"])
+            self.nlp = load_spacy("en_core_web_sm", exclude=["parser", "tagger"]) 
             self.nlp.add_pipe('merge_noun_chunks')
         elif lang == "zh":
             self.nlp = spacy.load('zh_core_web_sm', disable=["ner"])
