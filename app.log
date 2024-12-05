@@ -1,0 +1,37 @@
+2024-12-04 10:03:40,873 - ERROR - Error during compression: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2024-12-04 10:03:40,873 - ERROR - Error in Streamlit app: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2024-12-04 10:04:56,951 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-12-04 10:04:58,542 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-04 10:04:59,325 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:04:59,630 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:00,654 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-12-04 10:05:00,733 - DEBUG - Starting new HTTPS connection (1): openaipublic.blob.core.windows.net:443
+2024-12-04 10:05:02,398 - DEBUG - https://openaipublic.blob.core.windows.net:443 "GET /gpt-2/encodings/main/vocab.bpe HTTP/11" 200 456318
+2024-12-04 10:05:05,895 - DEBUG - Starting new HTTPS connection (1): openaipublic.blob.core.windows.net:443
+2024-12-04 10:05:07,097 - DEBUG - https://openaipublic.blob.core.windows.net:443 "GET /gpt-2/encodings/main/encoder.json HTTP/11" 200 1042301
+2024-12-04 10:05:14,987 - INFO - Compression successful
+2024-12-04 10:05:30,551 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-04 10:05:30,965 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:31,272 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:31,681 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-12-04 10:05:31,724 - INFO - Compression successful
+2024-12-04 10:05:43,209 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-04 10:05:43,662 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:44,373 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:44,788 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-12-04 10:05:44,826 - INFO - Compression successful
+2024-12-04 10:05:53,715 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-04 10:05:54,087 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:54,386 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:05:54,728 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-12-04 10:05:54,763 - INFO - Compression successful
+2024-12-04 10:06:40,702 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-04 10:06:41,041 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:06:41,416 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:06:41,825 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-12-04 10:06:41,862 - INFO - Compression successful
+2024-12-04 10:08:02,686 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-12-04 10:08:03,022 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:08:03,735 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-12-04 10:08:04,669 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-12-04 10:08:04,895 - INFO - Compression successful
