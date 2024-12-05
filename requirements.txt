@@ -1,6 +1,6 @@
 streamlit
 spacy
-spacy_download
+en-core-web-sm
 torch
 llmlingua
 transformers
